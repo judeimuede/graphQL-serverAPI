@@ -72,7 +72,7 @@ app.use(
 //   res.send(Buffer.from(html));
 // });
 // Server deployment
-// app.listen(process.env.PORT);
-// console.log(
-// `Running a GraphQL API server at http://localhost:${process.env.PORT}/graphql`
-// );
+app.listen(process.env.PORT);
+console.log(
+`Running a GraphQL API server at http://localhost:${process.env.PORT}/graphql`
+);
