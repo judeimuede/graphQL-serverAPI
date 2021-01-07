@@ -2,9 +2,9 @@
   "name": "graphql-serverapi",
   "version": "1.0.0",
   "description": "",
-  "main": "local.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon local.js",
+    "start": "nodemon server.js",
     "deploy": "serverless deploy"
   },
   "author": "",
