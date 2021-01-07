@@ -1,0 +1,1 @@
+Creates GraphQL API Server endpoint using Node and Express to retrieve account resources from Amazon Web Services (AWS)
