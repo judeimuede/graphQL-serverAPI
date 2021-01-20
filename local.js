@@ -70,7 +70,7 @@ app.use(
 //   res.set("Content-Type", "text/html");
 //   res.send(Buffer.from(html));
 
-// Local environment
+// Instance of a local environment
 const port = process.env.PORT || 4000
 app.listen(port)
 console.log(`Running a GraphQL API server at localhost:${port}/graphql`);
