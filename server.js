@@ -71,7 +71,8 @@ app.use(
 //   res.set("Content-Type", "text/html");
 //   res.send(Buffer.from(html));
 // });
-// Server deployment
+
+// Server deployment like an EC2 instance
 app.listen(process.env.PORT);
 console.log(
 `Running a GraphQL API server at http://localhost:${process.env.PORT}/graphql`
